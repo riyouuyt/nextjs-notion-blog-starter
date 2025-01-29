@@ -4,8 +4,8 @@ import Image from 'next/image';
 export default function Socials() {
   const socials = [
     {
-      name: 'Twitter',
-      href: siteData?.twitter,
+      name: 'portfolio',
+      href: siteData?.websiteUrl,
       icon: '/socials/twitter.svg'
     },
     {
